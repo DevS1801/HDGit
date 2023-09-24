@@ -1,0 +1,35 @@
+tải git từ trang https://git-scm.com/
+sau đó kiểm tra bằng lệnh dưới
+git --version
+// lấy dự án trên git, sau đó viết code rồi đẩy lên lại 
+//Tạo 1 project trên github 
+git clone link HTTPS: Đẩy code vè thư mục
+git status: xem trạng thais của thư mục có gì thay đổi
+git add . :Thêm tất cả các file
+git commit -m "messsage": trong đó -m là viết tắt của message
+git push origin main : Đẩy code lên main
+các lệnh trên thường hay sử dụng
+//dùng để đẩy source có sẵn trogn thư mục lên git
+//tạo project local trong thư mục và đẩy lên github
+git init: khởi tạo một thư mục git rỗng
+git status: xem trạng thais của thư mục có gì thay đổi
+git add . :Thêm tất cả các file
+git commit -m "messsage": trong đó -m là viết tắt của message
+git remote add origin https://github.com/LilKeyz18/test.git
+git push origin master
+
+so sanh https và ssh
+httpss thì cứ 1 lần đẩy code lên bằng gitbash thì no phải bắt mình xác thực kết nối với github
+ssh thì k cần, git nó sẽ lo cho  mình và ta sẽ phải caauss hình trong github, ssh-keygen -t ed25519 -C "lebuithienduc123@gmail.com" chạy lệnh này trong gitbash ở thư mục nào mà muốn đẩy code
+
+muốn tìm thấy key thì gõ whoami trên cmd
+/// các câu lệnh làm việc nhóm
+branch: Nhánh code dùng để tránh trường hợp khi phats triển 1 chưc năng mà sợ đưa vào nhánh chính sợ bug ảnh hưởng, thì ta sẽ dùng nhánh để làm sau đó sẽ merge code vào main 
+  git pull là kéo code mới nhất về// git pull origin main: kéo code mơi nhất ở nhánh main về 
+git checkout -b TenBrand mới // git checkout (tên nhánh: Để chuyển nhánh )
+git branch: Kiểm tra các nhánh có trong branch
+
+
+
+
+
